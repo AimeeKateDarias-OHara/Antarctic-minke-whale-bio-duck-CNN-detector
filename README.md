@@ -1,5 +1,5 @@
 Antarctic minke whale machine learning detector
-Darias-O’Hara et al. (In review)
+Darias-O'Hara, A. K., P. Nguyen Hong Duc, S. Madhusudhana, R. McCauley, C. Tollefsen, C. Erbe and B.S. Miller. 2026. Machine Learning Methods for the Detection of Antarctic Minke Whales (Balaenoptera bonaerensis) in East Antarctica and Western Australia. Marine Mammal Science 42, no. 1: e70118. https://doi.org/10.1111/mms.70118.
 Overview of the detector 
 This detector was developed using Koogu v0.7.2 (Madhusudhana, 2023), an open-source framework for machine learning from bioacoustics datasets, based on TensorFlow 2.9.0 framework (TensorFlow Developers, 2022) and Python 3.10 (Python Software Foundation, 2021). A quasi-DenseNet CNN architecture was selected. 
 This detector identifies Antarctic minke whale bio-duck vocalisations. Positive detections are labelled as “BD” under the “Tags” column in the resulting RavenPro selections tables.  
